@@ -31,6 +31,7 @@ const employee1 = new Employee("Bob", 25, "Developer");
 person1.greet();        // Output: Hello, my name is Alice, I am 30 years old.
 employee1.greet();      // Output: Hello, my name is Bob, I am 25 years old.
 employee1.jobGreet();   // Output: Hello, my name is Bob, I am 25 years old, and my job title is Developer.
+
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
